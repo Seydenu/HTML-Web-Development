@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Model Summary</title>
+
+	<style type="text/css">
+		
+		body {
+			background-color: chocolate;
+		}
+
+		li {
+         font-family: cursive;
+         font-size: 25px;
+      }
+
+      h3 {
+      	font-family: cursive;
+      	font-size: 40px;
+      }
+
+      a {
+         font-family: monospace;
+         font-size: 30px;
+         color: navajowhite;
+         text-decoration: none;
+      } 
+
+	</style>
+
+</head>
+<body>
+ 	<h1>Box Model Summary</h1>
+
+ 	<a href="index.html">Back Home</a>
+
+ 	<p>Firstly, everything that,s displayed in CSS is a box.</p>
+
+ 	<h3>Content & Sizing</h3>
+
+ 	<p>Boxes have different brhaviors based on theis display value, their set dimensions and the content that lives within them.</p>
+ 	<p>You can control this by using "extrinsic sizing" or you can let the browser make decision for you using "instrinsic sizing."</p>
+ 	<p>Using instrinsic sizing can allow the browser to well place your contents on the webpage as it should best fit.</p>
+ 	<p>When the element is using the extrinsic sizing, there's a limit of how much content you can add before it overflows out of it element's bounds, but this isn't the case with when instrinsic sizing is toggled on.</p>
+
+ 	<h3>The areas of the box model</h3>
+
+ 	<p>Boxes are made up of: Margin box, border box, padding box, & content box.</p>
+ 	<ol>
+ 		
+ 		<li>The Content Box - Is the area the content lives in. This content can control the size of its parents, so is most likely the most variable sized area.</li>
+ 		<li>The Padding - Sorrounds the content box and it's the space created by the padding property.</li>
+ 		<li>The Border Box - Sorrounds the padding box and its space is occupied by the border value.</li>
+ 		<li>The Margin box - Is the space around your box, defined by the margin rule on your box.</li>
+ 	</ol>
+
+ 	<h3>Controlling the Box Model</h3>
+
+ 	<p>It's the user agent style where the box's default "display" is set, for example: If we're in a normal flow, a "div" element's default "display" value is "block", a "li" has default display value of "list-items", and "span" has a default display value of "inline".</p>
+</body>
+</html>
